@@ -1,17 +1,42 @@
-# my_app
+# 📱 Mini Katalog Uygulaması
 
-A new Flutter project.
+## 📌 Proje Açıklaması
 
-## Getting Started
+Bu proje Flutter kullanılarak geliştirilmiş basit bir ürün katalog uygulamasıdır.
+Kullanıcı giriş yaptıktan sonra API üzerinden ürünleri listeleyebilir.
 
-This project is a starting point for a Flutter application.
+Login ekranında şifre: 123
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Özellikler
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+* 🔐 Login ekranı
+* 🌐 API'den veri çekme (DummyJSON)
+* 📦 Ürün listeleme
+* 👤 Kullanıcı adı gösterme
+* 🚪 Logout işlemi
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Kullanılan Teknolojiler
+
+* Flutter
+* Dart
+* HTTP Package
+
+## 📦 Flutter Sürümü
+
+Flutter 3.x.x
+
+## ▶️ Uygulamayı Çalıştırma
+
+```bash
+git clone https://github.com/nagihankarakoc/mini-katalog-app.git
+cd mini-katalog-app
+flutter pub get
+flutter run
+```
+## 📸 Ekran Görüntüleri
+![Login](assets/screenshots/Login.png)
+![Home](assets/screenshots/ana%20sayfa.png)
+![Home](assets/screenshots/ana%20sayfa2.png)
+![Detail_page](assets/screenshots/detay.png)
+![Cart_page](assets/screenshots/sepet%202.png)
+![Payment_page](assets/screenshots/ödeme%20adımı.png)
